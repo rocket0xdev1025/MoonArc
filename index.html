@@ -91,7 +91,9 @@
 </head>
 <body class="overflow-x-hidden bg-[#030918] font-sans text-slate-100 antialiased">
   <div class="pointer-events-none fixed inset-0 z-0" aria-hidden="true">
-    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('banner.jpg')"></div>
+    <video id="bg-video" class="absolute inset-0 h-full w-full object-cover" autoplay muted loop playsinline poster="banner.jpg">
+      <source src="bg.mp4" type="video/mp4" />
+    </video>
     <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(3,9,24,0.28)_48%,rgba(3,9,24,0.78)_100%)]"></div>
     <div class="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-[#030918]/85 to-transparent"></div>
     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#030918] to-transparent"></div>
@@ -105,14 +107,14 @@
           <span class="block font-display text-sm tracking-[0.22em] text-white">MOON ARC</span>
           <span class="block text-[10px] tracking-[0.32em] text-orange-300">$MOONARC</span>
         </span>
-      </a>
+      </a> 
       <div class="flex items-center gap-2 sm:gap-3">
         <a href="#how-to-buy" class="hidden px-2 text-sm text-cyan-100 transition hover:text-white md:inline">How to Buy</a>
         <a href="#chart" class="hidden px-2 text-sm text-cyan-100 transition hover:text-white md:inline">Chart</a>
-        <a href="https://x.com/moonarc" target="_blank" rel="noopener noreferrer" aria-label="Moon Arc on X" class="overflow-hidden rounded-lg ring-1 ring-white/25 transition hover:ring-cyan-300">
+        <a href="https://x.com/MoonArc_x" target="_blank" rel="noopener noreferrer" aria-label="Moon Arc on X" class="overflow-hidden rounded-lg ring-1 ring-white/25 transition hover:ring-cyan-300">
           <img src="x.png" alt="" width="36" height="36" class="h-9 w-9 object-cover" />
         </a>
-        <a href="https://argus.world/token/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 items-center rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-4 font-display text-[11px] tracking-[0.18em] text-[#1a0d04] transition hover:scale-[1.03]">Buy Now</a>
+        <a href="https://argus.world/token/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 items-center rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-4 font-display text-[11px] tracking-[0.18em] text-[#1a0d04] transition hover:scale-[1.03]">Buy Now</a>
       </div>
     </nav>
   </header>
@@ -170,7 +172,7 @@
         </div>
 
         <div class="mt-7 flex flex-wrap items-center justify-center gap-3">
-          <a href="https://argus.world/token/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 animate-ignite items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-6 font-display text-xs tracking-[0.2em] text-[#1a0d04] transition hover:scale-[1.03]">
+          <a href="https://argus.world/token/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 animate-ignite items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-6 font-display text-xs tracking-[0.2em] text-[#1a0d04] transition hover:scale-[1.03]">
             <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m0 0 4 4M12 5 8 9" />
               <path stroke-linecap="round" d="M7 19h10" />
@@ -178,14 +180,14 @@
             </svg>
             Buy Now
           </a>
-          <a href="https://dexscreener.com/arc/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 items-center gap-2 rounded-full border border-cyan-300/50 bg-cyan-400/10 px-6 font-display text-xs tracking-[0.2em] text-cyan-50 transition hover:scale-[1.03] hover:bg-cyan-400/20">
+          <a href="https://dexscreener.com/arc/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 items-center gap-2 rounded-full border border-cyan-300/50 bg-cyan-400/10 px-6 font-display text-xs tracking-[0.2em] text-cyan-50 transition hover:scale-[1.03] hover:bg-cyan-400/20">
             <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M4 17l5-5 3.5 3.5L20 7" />
               <path stroke-linecap="round" stroke-linejoin="round" d="M14 7h6v6" />
             </svg>
             Chart
           </a>
-          <a href="https://x.com/moonarc" target="_blank" rel="noopener noreferrer" aria-label="Moon Arc on X" class="grid h-12 w-12 place-items-center overflow-hidden rounded-full bg-black ring-1 ring-white/30 transition hover:scale-[1.03] hover:ring-cyan-300">
+          <a href="https://x.com/MoonArc_x" target="_blank" rel="noopener noreferrer" aria-label="Moon Arc on X" class="grid h-12 w-12 place-items-center overflow-hidden rounded-full bg-black ring-1 ring-white/30 transition hover:scale-[1.03] hover:ring-cyan-300">
             <img src="x.png" alt="" class="h-12 w-12 object-cover" />
           </a>
         </div>
@@ -193,7 +195,7 @@
         <div class="mx-auto mt-6 flex max-w-xl items-center gap-3 rounded-2xl border border-white/10 bg-black/35 px-4 py-3">
           <div class="min-w-0 flex-1">
             <p class="font-display text-[10px] tracking-[0.28em] text-cyan-200/80">CA</p>
-            <p data-ca class="break-all font-mono text-sm text-white sm:text-base">TBA</p>
+            <p data-ca class="break-all font-mono text-sm text-white sm:text-base">0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89</p>
           </div>
           <button type="button" data-copy class="inline-flex h-11 shrink-0 items-center gap-2 rounded-full border border-orange-300/40 bg-orange-400/10 px-4 font-display text-[11px] tracking-[0.16em] text-orange-100 transition hover:bg-orange-400/20">
             <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
@@ -248,7 +250,7 @@
             </div>
             <h3 class="mt-5 font-display text-lg tracking-wide text-white">Community Vibes</h3>
             <p class="mt-2 text-sm leading-relaxed text-slate-300">Holders, replies, and the X feed are part of the thrust. A quiet rocket never clears the clouds.</p>
-            <a href="https://x.com/moonarc" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center gap-2 text-sm text-cyan-200 transition hover:text-white">
+            <a href="https://x.com/MoonArc_x" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center gap-2 text-sm text-cyan-200 transition hover:text-white">
               <img src="x.png" alt="" class="h-5 w-5 rounded-sm" />
               x.com/moonarc
             </a>
@@ -302,7 +304,7 @@
         </div>
 
         <div class="mt-10 flex flex-wrap items-center justify-center gap-3">
-          <a href="https://argus.world/token/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 items-center rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-6 font-display text-xs tracking-[0.2em] text-[#1a0d04] transition hover:scale-[1.03]">Buy Now</a>
+          <a href="https://argus.world/token/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 items-center rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-6 font-display text-xs tracking-[0.2em] text-[#1a0d04] transition hover:scale-[1.03]">Buy Now</a>
           <a href="#chart" class="inline-flex h-12 items-center rounded-full border border-cyan-300/50 px-6 font-display text-xs tracking-[0.2em] text-cyan-50 transition hover:bg-cyan-400/10">Chart</a>
           <button type="button" data-copy class="inline-flex h-12 items-center gap-2 rounded-full border border-orange-300/40 bg-orange-400/10 px-5 font-display text-[11px] tracking-[0.16em] text-orange-100 transition hover:bg-orange-400/20">
             <span data-label>Copy CA</span>
@@ -318,9 +320,9 @@
           <div>
             <p class="font-display text-[11px] tracking-[0.4em] text-orange-300">LIVE TRAJECTORY</p>
             <h2 class="mt-3 font-display text-4xl uppercase tracking-wide text-white sm:text-5xl">Chart</h2>
-            <p class="mt-3 max-w-xl text-slate-300">Dexscreener embed for $MOONARC on Arc. The pair fills in when the contract leaves TBA.</p>
+            <p class="mt-3 max-w-xl text-slate-300">Dexscreener embed for $MOONARC on Arc. The pair fills in when the contract leaves 0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89.</p>
           </div>
-          <a href="https://dexscreener.com/arc/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 shrink-0 items-center gap-2 rounded-full border border-cyan-300/50 bg-cyan-400/10 px-6 font-display text-xs tracking-[0.2em] text-cyan-50 transition hover:bg-cyan-400/20">
+          <a href="https://dexscreener.com/arc/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 shrink-0 items-center gap-2 rounded-full border border-cyan-300/50 bg-cyan-400/10 px-6 font-display text-xs tracking-[0.2em] text-cyan-50 transition hover:bg-cyan-400/20">
             Chart
           </a>
         </div>
@@ -328,7 +330,7 @@
         <div class="mt-6 flex flex-col gap-3 rounded-2xl border border-white/10 bg-black/40 px-4 py-3 sm:flex-row sm:items-center">
           <div class="min-w-0 flex-1">
             <p class="font-display text-[10px] tracking-[0.28em] text-cyan-200/80">CA</p>
-            <p data-ca class="break-all font-mono text-sm text-white">TBA</p>
+            <p data-ca class="break-all font-mono text-sm text-white">0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89</p>
           </div>
           <button type="button" data-copy class="inline-flex h-11 items-center gap-2 self-start rounded-full border border-orange-300/40 bg-orange-400/10 px-4 font-display text-[11px] tracking-[0.16em] text-orange-100 transition hover:bg-orange-400/20 sm:self-auto">
             <span data-label>Copy</span>
@@ -338,7 +340,7 @@
         <div class="mt-5 overflow-hidden rounded-[1.6rem] border border-cyan-300/25 bg-black/50 shadow-[0_0_40px_rgba(56,189,248,0.12)]">
           <iframe
             title="Dexscreener chart for MOONARC on Arc"
-            src="https://dexscreener.com/arc/TBA?embed=1&amp;loadChartSettings=0&amp;trades=0&amp;tabs=0&amp;info=0&amp;chartLeftToolbar=0&amp;chartDefaultOnMobile=1&amp;chartTheme=dark&amp;theme=dark&amp;chartStyle=0&amp;chartType=usd&amp;interval=15"
+            src="https://dexscreener.com/arc/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89?embed=1&amp;loadChartSettings=0&amp;trades=0&amp;tabs=0&amp;info=0&amp;chartLeftToolbar=0&amp;chartDefaultOnMobile=1&amp;chartTheme=dark&amp;theme=dark&amp;chartStyle=0&amp;chartType=usd&amp;interval=15"
             class="h-[520px] w-full border-0 md:h-[640px]"
             loading="lazy"
             allow="fullscreen"
@@ -346,7 +348,7 @@
           ></iframe>
         </div>
         <p class="mt-3 text-center text-xs text-slate-400">
-          <a href="https://dexscreener.com/arc/TBA" target="_blank" rel="noopener noreferrer" class="text-cyan-200 underline decoration-cyan-400/40 underline-offset-4 hover:text-white">dexscreener.com/arc/TBA</a>
+          <a href="https://dexscreener.com/arc/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="text-cyan-200 underline decoration-cyan-400/40 underline-offset-4 hover:text-white">dexscreener.com/arc/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89</a>
         </p>
       </div>
     </section>
@@ -363,11 +365,11 @@
       </a>
       <p class="max-w-md text-sm text-slate-400">Arc energy. Community vibes. Moonbound chaos.</p>
       <div class="flex flex-wrap items-center justify-center gap-3">
-        <a href="https://x.com/moonarc" target="_blank" rel="noopener noreferrer" aria-label="Moon Arc on X" class="overflow-hidden rounded-lg ring-1 ring-white/20 transition hover:ring-cyan-300">
+        <a href="https://x.com/MoonArc_x" target="_blank" rel="noopener noreferrer" aria-label="Moon Arc on X" class="overflow-hidden rounded-lg ring-1 ring-white/20 transition hover:ring-cyan-300">
           <img src="x.png" alt="" class="h-10 w-10 object-cover" />
         </a>
-        <a href="https://argus.world/token/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 items-center rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-4 font-display text-[11px] tracking-[0.18em] text-[#1a0d04]">Buy Now</a>
-        <a href="https://dexscreener.com/arc/TBA" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 items-center rounded-full border border-cyan-300/40 px-4 font-display text-[11px] tracking-[0.18em] text-cyan-50">Chart</a>
+        <a href="https://argus.world/token/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 items-center rounded-full bg-gradient-to-r from-orange-500 via-amber-300 to-orange-500 px-4 font-display text-[11px] tracking-[0.18em] text-[#1a0d04]">Buy Now</a>
+        <a href="https://dexscreener.com/arc/0x537c51b5e9967479ec7abf8b13ccf2bb2c769e89" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 items-center rounded-full border border-cyan-300/40 px-4 font-display text-[11px] tracking-[0.18em] text-cyan-50">Chart</a>
       </div>
       <p class="text-xs text-slate-500">Moon Arc on Arc · fueled by Arc USDC</p>
     </div>
@@ -376,6 +378,11 @@
   <div id="toast" role="status" aria-live="polite" class="pointer-events-none fixed bottom-6 left-1/2 z-[60] -translate-x-1/2 translate-y-3 rounded-full border border-orange-300/40 bg-[#1a0d04]/95 px-5 py-2 font-display text-[11px] tracking-[0.18em] text-orange-100 opacity-0 shadow-[0_0_24px_rgba(251,146,60,0.35)] transition duration-300"></div>
 
   <script>
+    const bgVideo = document.getElementById("bg-video");
+    if (bgVideo && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      bgVideo.pause();
+    }
+
     const caSource = document.querySelector("[data-ca]");
     const toast = document.getElementById("toast");
     let toastTimer;
